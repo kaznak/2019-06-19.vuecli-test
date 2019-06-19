@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "serve": "node server.js",
     "build": "vue-cli-service build"
   },
   "dependencies": {
@@ -11,6 +11,8 @@
   },
   "devDependencies": {
     "@vue/cli-service": "^3.8.0",
-    "vue-template-compiler": "^2.6.10"
+    "express": "^4.17.1",
+    "vue-template-compiler": "^2.6.10",
+    "webpack-dev-middleware": "^3.7.0"
   }
 }
